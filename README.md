@@ -4,9 +4,9 @@ The wis.php CLI can upload your ZIP files / plugins to IPFS using Storacha and s
 <img src="wis.png">
 
 ### Prerequisites:
-1. Register a free account at Storacha.
+1. Register a free account at [Storacha](https://storacha.network/).
 2. Ensure you have **Node.js** installed (requires version 18 or higher). Storacha currently mainly supports a NodeJS cli, which wis.php uses underneath. 
-   - If not installed, download it from [nodejs.org](https://nodejs.org/en/download/) and follow the installation instructions or use NVM (see GitHub).
+   - If not installed, download it from [nodejs.org](https://nodejs.org/en/download/) and follow the installation instructions or use [NVM](https://github.com/nvm-sh/nvm).
 
 ### Installation Steps:
 **1. Install the CLI dependency**:

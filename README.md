@@ -30,7 +30,7 @@ You need to create a space to register everything correctly:
 w3 space create Documents
 ```
 
-## Uploading a File (after setup complete)
+## Uploading a File to IPFS (after setup complete)
 To upload a file or directory and retrieve valid JSON, run:
 
 ```bash

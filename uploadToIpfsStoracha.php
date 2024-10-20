@@ -1,11 +1,11 @@
 <?php
 
-function uploadFile() {
+function uploadToIpfsStoracha($path) {
     // Start output buffering
     ob_start();
 
     // Command to execute, redirecting output to /dev/null
-    $command = 'w3 up ~/yoga/mind/whitelabel-ipfs/public-various/duplicator.1.5.11.1.zip';
+    $command = 'w3 up '.escapeshellarg($path);
 
     // Execute the command and capture the output
     exec($command . ' 2>&1', $output, $returnVar); // Capture any error output
@@ -45,9 +45,9 @@ function uploadFile() {
     }
 }
 
-// Run the function to upload the file and print the result
-$result = uploadFile();
-if ($result) {
-    echo $result; // Only print the result if it's valid
-}
+// Test Run the function to upload the file and print the result
+//$result = uploadFile();
+//if ($result) {
+//    echo $result; // Only print the result if it's valid
+//}
 
